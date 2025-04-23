@@ -18,6 +18,20 @@
         android:layout_height="wrap_content"
         android:text="Start Logging WiFi RSS" />
 
+    <Button
+        android:id="@+id/clearDataBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear Data"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/sampleCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 / 10 scans collected"
+        android:layout_marginTop="8dp" />
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -36,19 +50,29 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Matrix of RSSI values:" />
-
-    <TextView
-        android:id="@+id/sampleCount"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="0 / 100 samples collected" />
+        android:text="Matrix of RSSI values:"
+        android:layout_marginTop="8dp" />
 
     <GridLayout
         android:id="@+id/matrixGrid"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:columnCount="10"
+        android:alignmentMode="alignMargins"
+        android:padding="4dp"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RSSI Range Across Locations:"
+        android:layout_marginTop="16dp" />
+
+    <GridLayout
+        android:id="@+id/summaryGrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
         android:alignmentMode="alignMargins"
         android:padding="4dp"
         android:layout_marginTop="8dp"/>

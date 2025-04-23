@@ -71,11 +71,13 @@
                 android:id="@+id/addBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:paddingRight="4dp"
                 android:text="Add" />
             <Button
                 android:id="@+id/subBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:paddingRight="4dp"
                 android:text="Subtract" />
         </LinearLayout>
 
