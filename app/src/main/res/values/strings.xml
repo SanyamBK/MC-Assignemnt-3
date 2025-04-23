@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MatrixCalculator</string>
+    <string-array name="locations_array">
+        <item>Room A</item>
+        <item>Room B</item>
+        <item>Corridor</item>
+    </string-array>
+</resources>
