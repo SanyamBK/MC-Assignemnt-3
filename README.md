@@ -40,18 +40,12 @@ The Matrix Calculator app allows users to perform matrix addition and subtractio
 - **Operations**:
   - Addition: Element-wise addition of two matrices.
   - Subtraction: Element-wise subtraction of two matrices.
+  - Multiplication: Element-wise multiplication of two matrices.
 - **Error Handling**:
   - Validates that both matrices have the same dimensions.
   - Ensures all input fields contain valid numbers, displaying a `Toast` message if invalid.
 - **Result Display**: The result matrix is shown as a formatted string in a `TextView`.
 - **Navigation**: The "Open WiFi Logger" button starts the `WifiLoggingActivity` for Question 2.
-
-### Screenshots
-- `screenshots/matrix_calculator_initial.png`: Initial screen with dimension inputs and buttons.
-- `screenshots/matrix_calculator_input.png`: Screen after generating matrix fields with inputs filled.
-- `screenshots/matrix_calculator_result.png`: Screen showing the result after performing an operation.
-
-*(To add screenshots: Capture these screens from Android Studio's emulator or device, save them in the `screenshots/` folder, and reference them here.)*
 
 ---
 
